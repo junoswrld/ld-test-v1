@@ -179,4 +179,190 @@ background: none !important; }
 .bottom,
 th {
    background: #594C47 !important;
-    color: #D3D9BF
+    color: #D3D9BF !important;
+border: 1px solid #D3D9BF !important;
+border-radius: 5px !important; }
+
+th a, th a:hover {
+color: #D3D9BF !important; }
+
+.bottom {
+	border-top-left-radius: 0px !important;
+border-top-right-radius: 0px !important; }
+.top {
+	border-bottom-left-radius: 0px !important;
+border-bottom-right-radius: 0px !important; }
+
+.top a, .bottom a, .top a:hover, .bottom a:hover, .top a:visited, .bottom a:visited {
+color: #D3D9BF !important; }
+ 
+.table .left {
+    background: #919558;
+border-radius: 0px !important; }
+.inner-table .left {
+    background: #919558 !important;
+border-radius: 3px !important;
+border-top-right-radius: 0px !important;
+border-bottom-right-radius: 0px !important;  }
+.inner-table .right {
+    background: #D3D9BF !important;
+border-radius: 3px !important; 
+color: #594C47 !important;
+border-top-left-radius: 0px !important;
+border-bottom-left-radius: 0px !important; } 
+.right_odd {
+    background: none !important; }
+
+.inner-table .right a {
+color: #594C47 !important; }
+ 
+/* ACCOUNT OPTIONS */
+ 
+.item-header {
+    background: #594C47 !important;
+    color: #D3D9BF !important; } 
+.item {
+    background: #D3D9BF !important;
+    border: none !important; }
+ 
+/* TEXT BOXES & BUTTONS */
+ 
+input, textarea, select, button.button {
+   background: #594C47 !important;
+    color: #D3D9BF !important;
+border: 1px solid #D3D9BF !important;
+border-radius: 3px !important;
+    text-shadow: none !important; }
+ 
+/* CAVE NAMES */
+ 
+.cave-grid,
+.mound-grid {
+    background: #919558 !important;
+    color: #594C47 !important;
+border: 1px solid #594C47 !important;
+border-radius: 5px !important; }
+
+ 
+/* SCROLL BOXES */
+ 
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px; }
+::-webkit-scrollbar-track {
+    background: #594C47;}
+::-webkit-scrollbar-thumb {
+    background: #919558; }
+ 
+/* CREDIT */
+ 
+.breadcrumb::after {
+        content: "css by jester (#187561)";
+        color: #594C47;
+        position: absolute;
+        right: 13%;
+        z-index: 100; }
+		
+@media only screen and (max-width: 1199px) and (min-width: 992px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 991px) and (min-width: 768px)  {
+        .breadcrumb::after {
+            right: 20%;
+        }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .breadcrumb::after {
+            right: 22%;
+        }
+    }
+ 
+/* EXTRAS - ADD/REMOVE BASED ON COMMISSION */
+ 
+/* BOXES */
+
+.boxcontainer {
+    background: none;
+    height: 75px;
+    padding: 0px;
+    display: block;
+    justify-content: center;
+transition: 2s	}
+	.boxcontainer:hover {
+	height: 150px; }
+   
+.Box1 {
+    float: left;
+    background: #HEX !important;
+    color: #HEX !important;
+border: none !important;
+border-radius: 0px !important;
+    padding: 5px;
+    float: left;
+    height: 75px;
+    width: 65%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+.Box1:hover {
+    overflow-y: auto;
+height: 150px;	}
+   
+.Box2 {
+    float: right;
+    background: #HEX !important;
+    color: #HEX !important;
+border: none !important;
+border-radius: 0px !important;
+    padding: 5px;
+    float: right;
+    height: 75px;
+    width: 30%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+.Box2:hover {
+    overflow-y: auto;
+height: 150px;	}
+	
+.Box3 {
+    float: right;
+    background: #HEX !important;
+    color: #HEX !important;
+border: none !important;
+border-radius: 0px !important;
+    padding: 5px;
+    float: right;
+    height: 75px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+    transition: 1s }   
+.Box3:hover {
+    overflow-y: auto;
+height: 150px;	}
+
+ 
+/* LION AND USER AVATAR OPACITY */
+   
+div#lion_image {
+    opacity: 0.8;
+border-radius: 50%;
+overflow: hidden; }   
+table#player img {
+    opacity: 0.8;
+border-radius: 50%; }
+
+/* LIODEN LOGO REPLACER */
+   
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+        display: none;}
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+        content: url('https://media.discordapp.com/attachments/1060030854761545819/1069609904635121786/imageedit_2_2010790702.png'); }
+		
+.footer a:link, .footer a:visited, .footer a:active {
+border-bottom: none !important; }
