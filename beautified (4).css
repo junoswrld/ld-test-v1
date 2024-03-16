@@ -1,127 +1,182 @@
+/* Jester's CSS Template
+Inspired by Katie's (#106445) Template
+Cave Replacement Code by Bobcat (#79288)
+Colored Panel Bars by Tserin (#2230)
+Firefox-Compatible Code by Atticus (#198107)
+Thank you to Katie, for encouraging me and supporting me */
+
 /* FONTS */
+
 @import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
 
-body {
-	font-family: 'Caudex', serif;
-}
+body {font-family: 'Caudex', serif;}
 
-.topbar {
-	font-family: 'Caudex', serif;
-}
+.topbar {font-family: 'Caudex', serif;}
 
-.navbar {
-	font-family: 'Caudex', serif;
-}
+.navbar {font-family: 'Caudex', serif;}
+
 
 /* HEADERS */
-h1 {
-	color: #BFBBB7 !important;
-	font-size: 72px;
-	text-align: left !important;
-	text-transform: uppercase !important;
-	font-family: 'Caudex', serif;
-}
 
-h2 {
-	color: #BFBBB7 !important;
-	font-size: 24px;
-}
+h1 {color: #BFBBB7 !important;
+    font-size: 72px;
+text-align: left !important;
+text-transform: uppercase !important;
+font-family: 'Caudex', serif; }
 
-h3 {
-	color: #BFBBB7 !important;
-	font-size: 18px;
-}
+h2 {color: #BFBBB7 !important;
+    font-size: 24px;}
+
+h3 {color: #BFBBB7 !important;
+    font-size: 18px;}
 
 /* LINKS */
+
 a:link,
 a:visited {
-	color: #594C47 !important;
-	background: none !important;
-}
-
+    color: #594C47 !important;
+background: none !important; }
+   
 a:hover {
-	color: #594C47 !important;
-}
+    color: #594C47 !important; }
 
 /* BACKGROUNDS */
-@media screen and (min-width: 601px) {
-	body {
-		background: url('https://media.discordapp.net/attachments/1218295055702429747/1218295238896910467/cole-keister-WruQEiQEHxs-unsplash.jpg?ex=660724db&is=65f4afdb&hm=e6b2f116bf07e2a43a5b0b808c750ab54d1c18c690d9dfb4cdb5999273921906&=&width=800&height=533') center center fixed;
-		background-size: 100%;
-		color: #594C47;
-	}
-}
 
-@media screen and (max-width: 600px) {
-	body {
-		background: #7F7160;
-		background-size: cover;
-		color: #594C47;
-	}
-}
+@media screen and (min-width: 601px) { 
+body {
+    background: url('https://media.discordapp.net/attachments/1218295055702429747/1218295238896910467/cole-keister-WruQEiQEHxs-unsplash.jpg?ex=660724db&is=65f4afdb&hm=e6b2f116bf07e2a43a5b0b808c750ab54d1c18c690d9dfb4cdb5999273921906&=&width=800&height=533') center center fixed;
+    background-size: 100%;
+    color: #594C47; } }
 
-/* LIODEN LOGO REPLACER */
-div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	display: none;
-}
-
-div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
-	content: url('https://static.lioden.com/images/explorenew/all/glossyibisDAY.png');
-}
-
+@media screen and (max-width: 600px){
+body {
+background: #7F7160;
+background-size: cover;
+color: #594C47; } }
+ 
 /* MAIN PANEL */
+   
 .container.main {
-	background: rgba(89, 76, 71, 0.4);
-	border: none;
-	box-shadow: none;
-	border-radius: 5px;
-}
-
+    background: rgba(89, 76, 71, 0.4);
+    border: none;
+    box-shadow: none;
+    border-radius: 5px; }
 .col-md-9 {
-	background: none;
-}
+    background: none; } 
 
 /* TOPBAR, NAVBAR, & BREADCRUMB */
-.topbar {
-	background: #919558 !important;
-	color: #594C47 !important;
-	border: 1px solid #594C47 !important;
-	border-top: none !important;
-	border-radius: 5px !important;
-	border-top-left-radius: 0px !important;
-	border-top-right-radius: 0px !important;
-}
 
+.topbar {
+    background: #919558 !important;
+    color: #594C47 !important;
+border: 1px solid #594C47 !important;
+border-top: none !important;
+border-radius: 5px !important;
+border-top-left-radius: 0px !important;
+border-top-right-radius: 0px !important;  }
+ 
 .navbar {
-	background: #594C47 !important;
-	color: #D3D9BF !important;
-	border: none !important;
-	border-radius: 5px !important;
-	border-bottom-left-radius: 0px !important;
-	border-bottom-left-radius: 0px !important;
-}
+   background: #594C47 !important;
+    color: #D3D9BF !important;
+border: none !important;
+border-radius: 5px !important;
+border-bottom-left-radius: 0px !important;
+border-bottom-left-radius: 0px !important; }
 
 .navbar li a {
-	color: #D3D9BF !important;
-}
-
+color: #D3D9BF !important; }
+ 
 .navbar li a:hover {
-	background: #D3D9BF !important;
-	color: #594C47 !important;
-}
-
+    background: #D3D9BF !important;
+color: #594C47 !important; }
+ 
 .breadcrumb {
-	background: #919558 !important;
-	color: #594C47 !important;
-	border: 1px solid #594C47 !important;
-	border-radius: 3px !important;
-}
-
+    background: #919558 !important;
+    color: #594C47 !important;
+border: 1px solid #594C47 !important;
+border-radius: 3px !important;} 
 .breadcrumb .active {
-	color: #594C47;
-}
+    color: #594C47; }
 
-.breadcrumb a,
-.breadcrumb a:hover {
-	color: #594C47 !important;
-}
+.breadcrumb a, .breadcrumb a:hover {
+color: #594C47 !important; }
+ 
+/* ALERTS */
+ 
+.alert, .alert-warning, .alert-danger, .alert-success {
+   background: #594C47 !important;
+    color: #D3D9BF !important;
+border: 1px solid #D3D9BF !important;
+border-radius: 5px !important;  }
+.alert a, .alert-warning a, .alert-success a, .alert-danger a, .alert a:hover, .alert-warning a:hover, .alert-danger a:hover, .alert-success a:hover {
+color: #D3D9BF !important; }
+ 
+/* FAPA, KING DYNASTY, ETC. */
+ 
+.feature {
+    background: #919558 !important;
+    color: #594C47 !important;
+border: 1px solid #594C47 !important;
+border-radius: 5px !important; }
+.feature,
+div.left {
+    background: #919558 !important;
+    color: #594C47 !important;
+border: 1px solid #594C47 !important;
+border-radius: 5px !important; }
+ 
+/* SIDE PANELS */
+ 
+.panel {
+    background: #919558 !important;
+    color: #594C47 !important;
+border: 1px solid #594C47 !important;
+border-radius: 5px !important;
+box-shadow: none !important; }
+   
+.progress {
+    background: #A69E8F !important;
+    color: #HEX !important;
+border-radius: 2px !important;  }
+   
+.progress div {
+    color: #D3D9BF !important; }
+
+.progress-bar {
+    background: #736D5C !important; 
+border-radius: 2px !important; }
+ 
+/* CHAT */
+ 
+.s-chat-message:nth-child(even),
+.s-chat-message:nth-child(odd) {
+    background: #D3D9BF !important;
+    border: none !important; }
+.s-chat-message__pinned {
+    background: #594C47 !important;
+    color: #D3D9BF !important;
+    border: none !important; }
+.s-chat-message_timestamp {
+    color: #594C47 !important; }
+   
+div#chatMessageContainer {
+    border: none !important; }
+button#label_currentChannel {
+    border: none !important;
+    background: #919558 !important; }
+	
+	input#btnToggleSidebarChat {
+background: none !important; }
+ 
+/* LION INFO */
+ 
+.table {
+    background: rgba(211, 217, 191, 0.4);
+    border: none !important;
+    border-collapse: separate;
+    border-radius: 5px; }
+.top,
+.bottom,
+th {
+   background: #594C47 !important;
+    color: #D3D9BF
