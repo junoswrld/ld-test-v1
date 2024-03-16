@@ -1,0 +1,127 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
+
+body {
+	font-family: 'Caudex', serif;
+}
+
+.topbar {
+	font-family: 'Caudex', serif;
+}
+
+.navbar {
+	font-family: 'Caudex', serif;
+}
+
+/* HEADERS */
+h1 {
+	color: #BFBBB7 !important;
+	font-size: 72px;
+	text-align: left !important;
+	text-transform: uppercase !important;
+	font-family: 'Caudex', serif;
+}
+
+h2 {
+	color: #BFBBB7 !important;
+	font-size: 24px;
+}
+
+h3 {
+	color: #BFBBB7 !important;
+	font-size: 18px;
+}
+
+/* LINKS */
+a:link,
+a:visited {
+	color: #594C47 !important;
+	background: none !important;
+}
+
+a:hover {
+	color: #594C47 !important;
+}
+
+/* BACKGROUNDS */
+@media screen and (min-width: 601px) {
+	body {
+		background: url('https://media.discordapp.net/attachments/1218295055702429747/1218295238896910467/cole-keister-WruQEiQEHxs-unsplash.jpg?ex=660724db&is=65f4afdb&hm=e6b2f116bf07e2a43a5b0b808c750ab54d1c18c690d9dfb4cdb5999273921906&=&width=800&height=533') center center fixed;
+		background-size: 100%;
+		color: #594C47;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		background: #7F7160;
+		background-size: cover;
+		color: #594C47;
+	}
+}
+
+/* LIODEN LOGO REPLACER */
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	display: none;
+}
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a::after {
+	content: url('https://static.lioden.com/images/explorenew/all/glossyibisDAY.png');
+}
+
+/* MAIN PANEL */
+.container.main {
+	background: rgba(89, 76, 71, 0.4);
+	border: none;
+	box-shadow: none;
+	border-radius: 5px;
+}
+
+.col-md-9 {
+	background: none;
+}
+
+/* TOPBAR, NAVBAR, & BREADCRUMB */
+.topbar {
+	background: #919558 !important;
+	color: #594C47 !important;
+	border: 1px solid #594C47 !important;
+	border-top: none !important;
+	border-radius: 5px !important;
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+}
+
+.navbar {
+	background: #594C47 !important;
+	color: #D3D9BF !important;
+	border: none !important;
+	border-radius: 5px !important;
+	border-bottom-left-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+}
+
+.navbar li a {
+	color: #D3D9BF !important;
+}
+
+.navbar li a:hover {
+	background: #D3D9BF !important;
+	color: #594C47 !important;
+}
+
+.breadcrumb {
+	background: #919558 !important;
+	color: #594C47 !important;
+	border: 1px solid #594C47 !important;
+	border-radius: 3px !important;
+}
+
+.breadcrumb .active {
+	color: #594C47;
+}
+
+.breadcrumb a,
+.breadcrumb a:hover {
+	color: #594C47 !important;
+}
